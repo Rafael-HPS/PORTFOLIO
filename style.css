@@ -1,0 +1,401 @@
+body {
+    background-color: rgb(196, 196, 196);
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+/*Navbar*/
+nav {
+    position: relative;
+    align-content: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.938);
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
+nav ul {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+    color: white;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 30px;
+    transition: .5s;
+    font-family: 'Poiret One', cursive;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background-color: rgba(42, 114, 248, 0.562);
+    color: white;
+    text-decoration: none;
+}
+
+/*nav icon*/
+.toggle {
+    width: 80px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    display: none;
+}
+.responsive-bar
+{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.938);
+    padding: 10px 30px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.responsive-bar h3 {
+    margin: 0;
+    padding: 3px 0;
+    color: #fff;
+    float: left;
+}
+
+.responsive-bar h3 a {
+    color: #fff;
+    text-decoration: none;
+}
+/*Mobile Friendly Nav Settings*/
+.responsive-bar h3 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    float: right;
+    padding: 5px 10px;
+    background: rgba(255, 255, 0, 0.527);
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Poiret One', cursive;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+  }
+  
+  .dropdown {
+    float: right;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 0;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+  
+
+/*Header*/
+header {
+    background-color: rgba(0, 0, 0, 0.938);
+    color: white;
+    font-family: 'Poiret One', cursive;
+    font-size: 30px;
+    position: relative;
+    padding: 15px;
+    text-align: center;
+}
+
+.logo {
+    max-width: 200px;
+}
+/* About Description */
+.about {
+    position: relative;
+    margin-top: 80px;
+    margin-left: 100px;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+}
+/*Experience*/
+.companies {
+        position: relative;
+        margin-top: 50px;
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+}
+/*Images of the companies*/
+.image1 {
+    display: inline-flex;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 15px;
+    align-content: center;
+}
+/*description*/
+.descript {
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.item active {
+    width: 50%;
+    align-content: center;
+}
+.item {
+    width: 50%;
+    align-content: center;
+}
+/*Carousel*/
+.container {
+    width: 50%;
+    margin-top: 20px;
+}
+
+.carousel-inner {
+    align-items: center;
+    width: 50%;
+    margin-top: 30px;
+}
+/*Comments*/
+.comments {
+    font-family: 'Poiret One', cursive;
+    margin-top: 50px;
+    text-align: center;
+}
+/*Footer*/
+.footer {
+    background-color: rgba(0, 0, 0, 0.938);
+    margin-top: 50px;
+    color: white;
+    font-family: 'Poiret One', cursive;
+    position: relative;
+    padding: 15px;
+    margin-top: 172px;
+    text-align: center;
+    float: bottom;
+} 
+
+/*about page*/
+.me {
+    display: inline-flex;
+    position: relative;
+}
+/*profile image*/
+.montain {
+   display: inline;
+   text-align: left;
+   margin-left: 20px;
+}
+
+.profile {
+    width: 75%;
+    font-family: sans-serif;
+    color: rgb(77, 76, 76);
+    display: inline-flex;
+    margin-left: 20px;
+    text-align: center;
+}
+.profile h4 {
+    line-height: 35px;
+}
+
+.graphics {
+    align-content: center;
+    margin-top: 50px;
+    position: relative;
+    display: inline-flex;
+}
+
+.engage {
+    margin-top: 20px;
+}
+
+.invest {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.stairs {
+    width: 60px;
+    margin-left: 43%;
+    margin-top: 15px;
+}
+
+.xp {
+    width: 60px;
+    font-family: sans-serif;
+}
+
+.arrow {
+    width: 30px;
+}
+
+#grid /* this where the phones are displayed*/ { 
+    display: grid;
+    grid-template-rows:  1fr;
+    grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+    width: 70%;
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    }
+    #grid > div {
+        font-size: auto;
+        padding: 0em;
+        text-align: center;
+      }
+
+      
+ /*graphics images*/ 
+ .items {
+    margin-top: 20px;
+}
+    
+.comparison {
+    max-width: 85%;
+}
+
+
+.Hobbies {
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    margin-top: 50px;
+}
+
+table /* the table from the contact page*/{
+    margin-left: auto;
+    margin-right: auto;
+}
+table th{
+    text-align: center;
+    border: solid 1px #717171;
+    background-color: rgba(  2,114,129,1);
+}
+table td{
+    text-align: center;
+    border: solid 1px #717171;
+}
+.c-info {
+    text-align: center;
+}
+.googleMap /*the location of the company in the contact page */ {
+    width:100%;
+    line-height: 2px;
+    text-align: center;
+}
+
+.Mos {
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 50px;
+    border: #3b4a69 2px solid;
+    border-radius: 10px;
+}
+
+.CV {
+    width: 40%;
+    margin-top: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: #717171 solid 1px;
+    
+}
+
+/*Mobile Friendly Settings*/
+@media only screen and (max-width: 600px) {
+    ul {
+        width: 100%;
+    }
+    ul li {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    .responsive-bar {
+        display: block;
+    }
+    iframe {
+        width: 80%;
+        height: 200px;
+    }
+    .carousel-inner {
+        width: 90%;
+        height: 200px;
+    }
+    .montain {
+        width: 50%;
+        position: relative;
+        
+    }
+    .profile {
+        text-align: center;
+    }
+    .about {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .toggle {
+        display: inline;
+        
+    }
+    .invest {
+        width: 95%;
+    }
+    .me {
+        display: block;
+       width: 100%;
+    }
+    .montain {
+         
+    }
+    .profile {
+       margin-left: auto;
+        margin-right: auto;
+    }
+    .CV {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
